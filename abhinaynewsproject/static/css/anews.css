@@ -1,0 +1,29 @@
+.Jumbotron{
+  margin-top: 400px;
+  background: yellow;
+  color: white;
+}
+body{
+  background:url(https://images.unsplash.com/photo-1504465039710-0f49c0a47eb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fG5ld3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  color: black;
+
+  }
+  h1{
+    text-align: center;
+  }
+  ul{
+    font-size: 30px;
+  }
+  .Jumbotron{
+    margin-top: 200px;
+    background: red;
+    color: pink;
+  }
+  img{
+    width: 40%;
+    height: 250px;
+    border: 10px solid blue;
+    margin: 10px;
+
+
+  }

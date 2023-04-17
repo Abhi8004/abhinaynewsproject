@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous">
+
+<link rel="stylesheet" href="{%static  "css/anews.css" %}">
+  </head>
+  <body>
+    <h1> ABHINAY Politics NEWS INFORMATION </h1>
+    <ul>
+      <li>{{nes1 | title}}</li>
+      <li>{{nes2 | title}}</li>
+      <li>{{nes3 | title}}</li>
+      <li>{{nes4 | title}}</li>
+      <li>{{nes5 | title}}</li>
+    </ul>
+    <img src="{%static "image/m.jpg"%}">
+    <img src="{%static "image/y.jpg"%}">
+    <img src="{%static "image/r.jpg"%}">
+    <img src="{%static "image/ak.jpg"%}">
+    <img src="{%static "image/ma.jpg"%}">
+
+  </body>
+
+</html>
